@@ -1,4 +1,4 @@
-# ToadCareers
+### ToadCareers
 Careers management system written in PHP with Laravel MVC and Bootstrap. Where job seekers can create full profile and view current open jobs, apply for it, and view their application status for each job.
 
 
@@ -8,7 +8,7 @@ Administrator/recreutor can add/edit jobs, view applicants for each job, filter 
 System notify applicant in email of new job post in specific job category where they already subscribed to it and for their applicant status change.
 
 
-####Toadcareers includes:
+####ToadCareers includes:
 
 *Login and registration
 
