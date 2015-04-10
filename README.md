@@ -22,6 +22,11 @@ System email notify applicants for new job post in a specific job category where
     - filter and search applicant for job
     - change applicant status
 
+####Requirements
+Apache, Nginx, or Microsoft IIS
+PHP 5.4 or higher
+MySQL 5.6 or higher, for im using Full-text index in search module.
+
 ####Installation
 create the database and configure it in `app/config/database.php`
 In Artisan run
