@@ -75,7 +75,7 @@
 
 <foort>
 <div class="container">
-Developed by <a href="http://mutaz.info" target="_blank"> MutazHameed</a> under GNU license.
+Developed by <a href="http://mutaz.info" target="_blank"> MutazHameed</a>
 </div>
 </foort>
 
