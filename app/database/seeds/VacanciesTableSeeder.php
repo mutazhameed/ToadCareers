@@ -14,8 +14,8 @@ class VacanciesTableSeeder extends Seeder {
 			Vacancy::create([
                 'title' => $faker->sentence(),
                 'location' => $faker->city(),
-                'open_date' => $faker->dateTime(),
-                'closing_date' => $faker->dateTime(),
+                'open_date' => $faker->date(),
+                'closing_date' => $faker->date(),
                 'classification' => rand(1,10),
                 'company_id' => rand(1,3),
                 'cat_id' => rand(1,3),
@@ -27,7 +27,7 @@ class VacanciesTableSeeder extends Seeder {
                 'skills_knowledge' => $faker->realText(100),
                 'posted_user' => 1,
                 'closed' => rand(0,1),
-                'date_closed' => $faker->dateTime()
+                'date_closed' => $faker->date()
 			]);
 		}
 	}
