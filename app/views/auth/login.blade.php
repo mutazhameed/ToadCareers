@@ -3,6 +3,11 @@
 
 <div class="row">
     <div class="col-lg-12">
+     <div class="page-header">
+                <h1 id="forms">Login</h1>
+            </div>
+        </div>
+    </div>
     @if(Session::has('success'))
     <div class="alert alert-dismissible alert-success">{{ Session::get('success') }}</div>
     @endif
@@ -11,11 +16,7 @@
     <div class="alert alert-dismissible alert-danger">{{ $error }}</div>
     @endforeach
     @endif
-        <div class="page-header">
-            <h1 id="forms">Login</h1>
-        </div>
-    </div>
-</div>
+
         <div class="row">
             <div class="col-lg-6">
                 <div class="well bs-component">

@@ -30,8 +30,11 @@
               {{ link_to_route('home', Lang::get('site.name'), null,array('class' => 'navbar-brand')) }}
             </div>
             <div id="navbar-main" class="navbar-collapse collapse">
-               @if(Auth::check())
+
+
               <ul class="nav navbar-nav">
+              <li>{{ link_to_route('home', 'Vacancies') }}</li>
+               @if(Auth::check())
               @if(Auth::user()->type==0)
                <li>
                  {{ link_to_route('dashboard', 'Dashboard') }}

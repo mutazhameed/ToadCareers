@@ -32,6 +32,10 @@ class AuthController extends \BaseController
                 return Redirect::intended('/')->with($data);
             }
         }
+        else
+        {
+            return Redirect::back()->withErrors('email or password not correct');
+        }
         return Redirect::route('login');
 
     }
